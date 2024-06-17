@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+# Techradar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project, inspired by [Zalando's](https://github.com/zalando/tech-radar) and [Miguel Silva's](https://github.com/miguel-silva/techradar)
+techradar, enables users to generate a visualization representing the key frameworks, libraries, tools, platforms, and techniques used in
+organizations. It also provides information regarding the adoption level of each of these elements. What sets this project apart from other 
+libraries is its unique feature that allows users to customize the number of rings and slices according to their specific needs 
 
-## Available Scripts
+![ui](./.github/docs/ui.png)
 
-In the project directory, you can run:
+> [!TIP]
+> You can see example techradars created with this library [here](https://chrishrb.github.io/techradar/)
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* visualize your technology in rings and slices
+* integrate in your own code by only installing and using this library
+* variable number of rings
+* variable number of slices / quadrants
+* use [nerdfonts icons](https://www.nerdfonts.com/cheat-sheet)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📦 Getting started
 
-### `npm test`
+1. Install package with your preferred node package manager
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ```bash
+  # pnpm
+  pnpm add @chrishrb/techradar
 
-### `npm run build`
+  # npm
+  npm install @chrishrb/techradar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  # yarn
+  yarn add @chrishrb/techradar
+  ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Integrate the techradar in your project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ```ts
+  import Techradar, { TechradarData } from '@chrishrb/techradar'
 
-### `npm run eject`
+  function App() {
+    const data: TechradarData = {
+      id: "example1",
+      rings: [
+        { id: "adopt", name: "ADOPT" },
+        { id: "trial", name: "TRIAL" },
+        { id: "assess", name: "ASSESS" },
+        { id: "hold", name: "HOLD", color: "#e09b96" },
+      ],
+      slices: [
+        {
+          name: "Frameworks & Ecosystems",
+          blipsByRing: {
+            adopt: [{ name: "React" }],
+            trial: [{ name: "Vue" }, { name: "Angular (2+)" }],
+            hold: [{ name: "AngularJS (1)" }, { name: "jQuery" }],
+          },
+        },
+        {
+          name: "Linting & Formatting",
+          blipsByRing: {
+            adopt: [{ name: "ESLint" }, { name: "Prettier" }],
+            assess: [{ name: "AirBNB Eslint Config" }],
+          },
+        },
+        {
+          name: "Languages",
+          blipsByRing: {
+            adopt: [{ name: "CRA (Create React App)" }],
+            assess: [{ name: "Next.js" }, { name: "React App Rewired" }],
+          },
+        },
+      ],
+    };
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    return (
+      <>
+        <Techradar data={example} options={{ radarSize: 600 }} />
+      </>
+    )
+  }
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  export default App
+  ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+More examples are provided under the `src` folder in this repository.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+##  Icons
 
-## Learn More
+You can also use icons instead of numbers for the blips. Go to [nerdfonts](https://www.nerdfonts.com/cheat-sheet) and choose
+an icon. Afterwards copy the hexcode to your config and add the `\u` as a prefix. So in this example the hexcode of the react logo is
+`e7ba`, add the prefix `\u` and paste it into the blips configuration. **Important: Only the 4 digit hexcodes are working**:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```typescript
+...
+  slices: [
+    {
+      name: "Frameworks & Ecosystems",
+      blipsByRing: {
+        adopt: [{ name: "React", icon: "\ue7ba" }],
+      },
+    },
+...
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⚡️ Local Development
 
-### Code Splitting
+1. Install dependencies with pnpm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+pnpm install
+```
 
-### Analyzing the Bundle Size
+2. Start local development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+pnpm dev
+```
 
-### Making a Progressive Web App
+3. Build and publish package:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+pnpm build
+pnpm publish
+```
 
-### Advanced Configuration
+## 📄 Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- https://github.com/miguel-silva/techradar
+- https://github.com/zalando/tech-radar
