@@ -1,5 +1,5 @@
 {
-  "name": "@chrishrb/techradar",
+  "name": "test-jppolitikenshus/techradar",
   "description": "Create your own technology radar, with flexibility to customize the radar, the quadrants and the rings.",
   "version": "0.1.5",
   "private": false,
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrishrb/techradar.git"
+    "url": "git+https://github.com/test-jppolitikenshus/techradar.git"
   },
   "keywords": [
     "techradar",
