@@ -34,10 +34,10 @@ jobs:
         with:
           version: 8
 
-      - name: Use Node.js 21
+      - name: Use Node.js 22
         uses: actions/setup-node@v3
         with:
-          node-version: 21
+          node-version: 22
           cache: 'pnpm'
 
       - name: Install dependencies
