@@ -165,6 +165,10 @@ const data: TechradarData = {
             "name": "2 person integrity Vault in Rust",
             "state": "up",
             "url": "https://eb.dk/"
+          },
+          {
+            "name": "hest",
+            "url": "https://dygtighest.dk/"
           }
         ],
         "trial": [
