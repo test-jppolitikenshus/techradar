@@ -28,7 +28,7 @@ const data: TechradarData = {
         "adopt": [
           {
             "name": "React",
-            "icon": "\ue7ba"
+            "icon": "\\ue7ba"
           }
         ],
         "trial": [
@@ -56,7 +56,7 @@ const data: TechradarData = {
         "adopt": [
           {
             "name": "ESLint",
-            "icon": "\ue655"
+            "icon": "\\ue655"
           },
           {
             "name": "Prettier"
@@ -97,7 +97,7 @@ const data: TechradarData = {
         "adopt": [
           {
             "name": "AWS CodePipeline",
-            "icon": "\uf0ef"
+            "icon": "\\uf0ef"
           }
         ],
         "trial": [
@@ -162,7 +162,7 @@ const data: TechradarData = {
             "name": "REST"
           },
           {
-            "name": "2 person integrity Vault in Rust",
+            "name": "Kristoffers 2 person integrity Vault in Rust",
             "state": "up",
             "url": "https://eb.dk/"
           }

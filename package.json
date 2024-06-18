@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -verbose -d dist",
     "ci": "pnpm install --frozen-lockfile",
     "dev": "vite",
     "build": "tsc --p ./tsconfig-build.json && vite build",

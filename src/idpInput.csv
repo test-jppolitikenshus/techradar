@@ -1,0 +1,29 @@
+sliceName,ringId,name,icon,state,url
+Frameworks & Ecosystems,adopt,React,\ue7ba,,
+Frameworks & Ecosystems,trial,Vue,,,
+Frameworks & Ecosystems,trial,Angular (2+),,,
+Frameworks & Ecosystems,hold,AngularJS (1),,,
+Frameworks & Ecosystems,hold,jQuery,,,
+Linting & Formatting,adopt,ESLint,\ue655,,
+Linting & Formatting,adopt,Prettier,,,
+Linting & Formatting,assess,AirBNB Eslint Config,,,
+Languages,adopt,CRA (Create React App),,,,
+Languages,assess,Next.js,,,
+Languages,assess,React App Rewired,,,
+Infrastucture,adopt,AWS CodePipeline,\uf0ef,,
+Infrastucture,trial,Jenkins,,,
+Infrastucture,hold,Bamboo,,down
+Infrastucture,hold,TeamCity,,,
+Datastores,adopt,Postgres,,,
+Datastores,adopt,Redis,,up,https://redis.io/
+Datastores,trial,MongoDB,,,
+Datastores,assess,Cassandra,,,
+Datastores,hold,MySQL,,,
+Datastores,hold,SQLite,,,
+Datastores,hold,CouchDB,,up
+Data Management,adopt,REST,,,
+Data Management,trial,GraphQL,,,
+Data Management,trial,Apollo Client,,,
+Data Management,assess,Falcor,,,
+Data Management,hold,SOAP,,down
+Data Management,adopt,2 person integrity Vault in Rust,,up,https://eb.dk/
