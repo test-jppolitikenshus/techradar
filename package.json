@@ -58,7 +58,7 @@
     "happy-dom": "^14.11.0",
     "jest-environment-jsdom": "29.7.0",
     "ts-node": "10.9.2",
-    "typescript": "5.4.2",
+    "typescript": "5.5.4",
     "typescript-eslint": "^7.13.1",
     "vite": "5.2.11",
     "vite-plugin-dts": "3.7.3",
