@@ -1,35 +1,31 @@
 sliceName,ringId,name,icon,state,url
-Frameworks & Ecosystems,adopt,React,\ue7ba,,
-Frameworks & Ecosystems,trial,Vue,,,
-Frameworks & Ecosystems,trial,Angular (2+),,,
-Frameworks & Ecosystems,hold,AngularJS (1),,,
-Frameworks & Ecosystems,hold,jQuery,,,
-Linting & Formatting,adopt,ESLint,\ue655,,
-Linting & Formatting,adopt,Prettier,,,
-Linting & Formatting,assess,AirBNB Eslint Config,,,
-Languages,adopt,CRA (Create React App),,,,
-Languages,assess,Next.js,,,
-Languages,assess,React App Rewired,,,
-Infrastucture,adopt,AWS CodePipeline,\uf0ef,,
-Infrastucture,trial,Jenkins,,,
-Infrastucture,hold,Bamboo,,down
-Infrastucture,hold,TeamCity,,,
-Datastores,adopt,Postgres,,,
-Datastores,adopt,Redis,,up,https://redis.io/
-Datastores,trial,MongoDB,,,
-Datastores,assess,Cassandra,,,
-Datastores,hold,MySQL,,,
-Datastores,hold,SQLite,,,
-Datastores,hold,CouchDB,,up
-Data Management,adopt,REST,,,
-Data Management,trial,GraphQL,,,
-Data Management,trial,Apollo Client,,,
-Data Management,assess,Falcor,,,
-Data Management,hold,SOAP,,down
-Data Management,adopt,2 person integrity Vault in Rust,,up,https://eb.dk/
-Data Management,adopt,hest,,,https://dygtighest.dk/
-Data Management,adopt,heste hest,,,https://dygtighest.dk/
-Data Management,adopt,dygtig hest,,,https://dygtighest.dk/
-Data Management,adopt,dygtig hest2,,,https://dygtighest2.dk/
-
+Networking & Security,assess,AWS SSM,\ue7ba,up,https://dygtighest.dk
+Networking & Security,assess,Istio,\ue7ba,up,https://dygtighest.dk
+Networking & Security,assess,Cilium,\ue7ba,up,https://dygtighest.dk
+Networking & Security,assess,Falco,\ue7ba,up,https://dygtighest.dk
+Networking & Security,assess,Trivy,\ue7ba,up,https://dygtighest.dk
+Networking & Security,assess,SPIRE / SPIFFE,\ue7ba,up,https://dygtighest.dk
+Networking & Security,assess,Kyverno,\ue7ba,up,https://dygtighest.dk
+Workloads & Scaling,assess,Containers,\ue7ba,up,https://dygtighest.dk
+Workloads & Scaling,assess,Lambda,\ue7ba,up,https://dygtighest.dk
+Workloads & Scaling,assess,Karpenter,\ue7ba,up,https://dygtighest.dk
+Datastores,assess,RDS Postgres,\ue7ba,up,https://dygtighest.dk
+Datastores,assess,EBS,\ue7ba,up,https://dygtighest.dk
+Datastores,assess,EFS,\ue7ba,up,https://dygtighest.dk
+Infrastucture,assess,Github Enterprise Cloud,\ue7ba,up,https://dygtighest.dk
+Infrastucture,assess,ArgoCD,\ue7ba,up,https://dygtighest.dk
+Infrastucture,assess,Backstage,\ue7ba,up,https://dygtighest.dk
+Infrastucture,assess,TeamCity,\ue7ba,up,https://dygtighest.dk
+Infrastucture,assess,Microsoft Entra,\ue7ba,up,https://dygtighest.dk
+Infrastucture,assess,Ubuntu,\ue7ba,up,https://dygtighest.dk
+Cloud Providers,assess,AWS,\ue7ba,up,https://dygtighest.dk
+Cloud Providers,assess,EKS-anywhere,\ue7ba,up,https://dygtighest.dk
+Cloud Providers,assess,Azure,\ue7ba,up,https://dygtighest.dk
+Cloud Providers,assess,Google Cloud Platform,\ue7ba,up,https://dygtighest.dk
+Infrastructure as code,assess,Terraform,\ue7ba,up,https://dygtighest.dk
+Infrastructure as code,assess,Crossplane,\ue7ba,up,https://dygtighest.dk
+Infrastructure as code,assess,CDK,\ue7ba,up,https://dygtighest.dk
+Infrastructure as code,assess,ACK,\ue7ba,up,https://dygtighest.dk
+Observability,assess,Grafana,\ue7ba,up,https://dygtighest.dk
+Observability,assess,OpenTelemetry,\ue7ba,up,https://dygtighest.dk
 
