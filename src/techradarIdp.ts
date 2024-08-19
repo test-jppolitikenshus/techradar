@@ -23,70 +23,77 @@ const data: TechradarData = {
   ],
   "slices": [
     {
-      "name": "Frameworks & Ecosystems",
+      "name": "Networking & Security",
       "blipsByRing": {
         "adopt": [
           {
-            "name": "React",
+            "name": "Cilium",
             "icon": "\ue7ba"
           }
         ],
         "trial": [
           {
-            "name": "Vue"
+            "name": "Istio"
           },
           {
-            "name": "Angular (2+)"
+            "name": "Cilium"
           }
         ],
-        "assess": [],
-        "hold": [
+        "assess": [
           {
-            "name": "AngularJS (1)"
+            "name": "Falco"
           },
           {
-            "name": "jQuery"
+            "name": "Trivy"
+          },
+        ],
+        "hold": [
+          {
+            "name": "SPIRE / SPIFFE"
+          },
+          {
+            "name": "Kyverno"
           }
         ]
       }
     },
     {
-      "name": "Linting & Formatting",
+      "name": "Workloads",
       "blipsByRing": {
         "adopt": [
           {
-            "name": "ESLint",
+            "name": "Containers",
             "icon": "\ue655"
           },
-          {
-            "name": "Prettier"
-          }
-        ],
+         ],
         "trial": [],
         "assess": [
           {
-            "name": "AirBNB Eslint Config"
-          }
+            "name": "Lambda"
+          },
+          {
+            "name": "Karpenter"
+          },
         ],
         "hold": []
       }
     },
     {
-      "name": "Languages",
+      "name": "Persistent Storage",
       "blipsByRing": {
         "adopt": [
           {
-            "name": "CRA (Create React App)"
-          }
+            "name": "RDS Postgres"
+          },
+          {
+            "name": "EBS"
+          },
+          {
+            "name": "EFS"
+          },
         ],
         "trial": [],
         "assess": [
-          {
-            "name": "Next.js"
-          },
-          {
-            "name": "React App Rewired"
-          }
         ],
         "hold": []
       }
@@ -96,21 +103,21 @@ const data: TechradarData = {
       "blipsByRing": {
         "adopt": [
           {
-            "name": "AWS CodePipeline",
+            "name": "Github Enterprise Cloud",
             "icon": "\uf0ef"
-          }
+          },
+          {
+            "name": "ArgoCD"
+          },
         ],
         "trial": [
           {
-            "name": "Jenkins"
-          }
-        ],
-        "assess": [],
-        "hold": [
-          {
-            "name": "Bamboo",
-            "state": "down"
+            "name": "backstage"
           },
+        ],
+        "assess": [
+        ],
+        "hold": [
           {
             "name": "TeamCity"
           }
@@ -118,49 +125,34 @@ const data: TechradarData = {
       }
     },
     {
-      "name": "Datastores",
+      "name": "Cloud Providers",
       "blipsByRing": {
         "adopt": [
           {
-            "name": "Postgres"
-          },
-          {
-            "name": "Redis",
-            "state": "up",
-            "url": "https://redis.io/"
+            "name": "AWS"
           }
         ],
         "trial": [
-          {
-            "name": "MongoDB"
-          }
         ],
         "assess": [
           {
-            "name": "Cassandra"
-          }
+            "name": "EKS-anywhere"
+          },
+          {
+            "name": "Azure"
+          },
+          {
+            "name": "Google Cloud Platform"
+          },
         ],
         "hold": [
-          {
-            "name": "MySQL"
-          },
-          {
-            "name": "SQLite"
-          },
-          {
-            "name": "CouchDB",
-            "state": "up"
-          }
         ]
       }
     },
     {
-      "name": "Data Management",
+      "name": "Infrastructure as code",
       "blipsByRing": {
         "adopt": [
-          {
-            "name": "REST"
-          },
           {
             "name": "2 person integrity Vault in Rust",
             "state": "up",
@@ -172,26 +164,45 @@ const data: TechradarData = {
           }
         ],
         "trial": [
-          {
-            "name": "GraphQL"
-          },
-          {
-            "name": "Apollo Client"
-          }
         ],
         "assess": [
           {
-            "name": "Falcor"
+            "name": "Terraform"
+          },
+          {
+            "name": "Crossplane"
+          },
+          {
+            "name": "CDK"
           }
         ],
         "hold": [
+        ]
+      }
+    },
+    {
+      "name": "Observability",
+      "blipsByRing": {
+        "adopt": [
           {
-            "name": "SOAP",
-            "state": "down"
-          }
+            "name": "Grafana",
+            "state": "up",
+            "url": "https://grafana.com/"
+          },
+          {
+            "name": "OpenTelemetry",
+            "url": "https://opentelemetry.org/"
+          },
+        ],
+        "trial": [
+        ],
+        "assess": [
+        ],
+        "hold": [
         ]
       }
     }
+    
   ]
 };
 
