@@ -29,4 +29,5 @@ Infrastructure as code,assess,ACK,,,https://aws.amazon.com/blogs/containers/aws-
 Infrastructure as code,assess,GitOps,,,https://akkireddy.medium.com/rethinking-gitops-moving-beyond-branch-based-deployment-4605f078ef0e
 Observability,assess,Grafana,,up,https://github.com/grafana/helm-charts 
 Observability,assess,OpenTelemetry,,up,https://github.com/open-telemetry/opentelemetry-helm-charts
+Observability,adopt,Hest,,,https://dygtighest.dk
 
