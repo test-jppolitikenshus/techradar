@@ -31,9 +31,8 @@ function App() {
         <tbody>
           <tr>
             <td>
-              <h3>Hvad er en techradar?</h3>
+              <h3 style={{ fontFamily: "Geneva, Arial, Helvetica, sans-serif", fontSize: "14px", color: "rgb(153, 153, 153)" }}>Hvad er en techradar?</h3>
               <p>
-                The techradar is a list of technologies, complemented by an assessment result, called <em>ring assignment</em>. In this example the following rings are used:
                 En techradar er en oversigt over teknologier, suppleret med en status, kaldet <em>ringtildeling</em>. I dette eksempel anvendes følgende ringe:
               </p>
 
@@ -49,7 +48,7 @@ function App() {
               <h3>Hvad er formålet ?</h3>
 
               <p>
-                En techradar er et værktøj til at inspirere og støtte digitale produktteams i at vælge de bedste teknologier til nye projekter; det giver en platform til at dele viden og erfaringer om teknologier, reflektere over teknologibeslutninger og kontinuerligt udvikle vores teknologilandskab. Baseret på <a href="https://opensource.zalando.com/tech-radar/#">udarbejdet af Zalando</a>, opstiller denne techradar ændringer i teknologier, der er interessante inden for softwareudvikling &mdash; ændringer, som vi mener, vores produktteams bør være opmærksomme på og bruge i deres projekter.</p>
+                En techradar er et værktøj til at inspirere og støtte digitale produktteams i at vælge de bedste teknologier til nye projekter; det giver en platform til at dele viden og erfaringer om teknologier, reflektere over teknologibeslutninger og kontinuerligt udvikle vores teknologilandskab. Baseret på <a href="https://opensource.zalando.com/tech-radar/#">Zalandos arbejde</a>, opstiller denne techradar ændringer i teknologier, der er interessante inden for softwareudvikling &mdash; ændringer, som vi mener, vores produktteams bør være opmærksomme på og bruge i deres projekter.</p>
 
               <h3>Hvem opdaterer den ?</h3>
 
@@ -58,7 +57,7 @@ function App() {
               </p>
             </td></tr>
         </tbody>
-      </table>
+      </table >
     </>
   )
 }
