@@ -28,7 +28,6 @@ Observability,assess,Datadog,,up,https://datadog.com
 
 
 
-sliceName,ringId,name,icon,state,url
 Security,assess,AWS SSM secret manager,,,https://docs.aws.amazon.com/systems-manager/latest/userguide/integration-ps-secretsmanager.html
 Security,assess,github advanced security
 Security,assess,https://www.coana.tech
@@ -53,7 +52,6 @@ backup vault
 kubernetes
 k6s test
 
-sliceName,ringId,name,icon,state,url
 Networking & Security,assess,AWS SSM,,up,https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html
 Networking & Security,assess,Istio,,up,https://istio.io/latest/docs/setup/install/helm/
 Networking & Security,assess,Cilium,,up,https://docs.cilium.io/en/stable/installation/k8s-install-helm/
