@@ -30,8 +30,14 @@ Infrastructure as code,assess,GitOps,,,https://akkireddy.medium.com/rethinking-g
 Observability,assess,Grafana,,up,https://github.com/grafana/helm-charts 
 Observability,assess,OpenTelemetry,,up,https://github.com/open-telemetry/opentelemetry-helm-charts
 Observability,adopt,Hest,,,https://dygtighest.dk
-Observability,adopt,Hest2,,,https://dygtighest.dk
-Observability,adopt,Hest3,,,https://dygtighest.dk
-Observability,adopt,Hest4,,,https://dygtighest.dk
-Observability,adopt,Hest5,,,https://dygtighest.dk
-Observability,adopt,Hest6,,,https://dygtighest.dk
+ECR, dockerhub
+SQS
+SNS
+Route53
+ACM
+S3
+aws backup vault
+slack
+github wiki
+github issues
+

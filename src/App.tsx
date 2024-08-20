@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import Techradar, { TechradarData } from '../lib/main'
 import idp from './techradarIdp';
-import dut from './techradarDut';
-import pub from './techradarInf';
 import feat from './techradarFeat';
+import ops from './techradarInf';
+import dut from './techradarDut';
 
 function App() {
   const [example, setExample] = useState<TechradarData>(idp);
@@ -14,9 +14,10 @@ function App() {
         <i className="fa-brands fa-facebook"></i>
         <div style={{ paddingBottom: "10px" }}>
           <h2 style={{ fontFamily: "Arial, Helvetica", fontSize: "20px", fontWeight: "bold", marginBottom: "0px" }}>Vælg en radar:</h2>
-          <button style={{ margin: "5px", marginLeft: "0px" }} onClick={() => setExample(idp)}>Internal Developer Platform</button>
+          <button style={{ margin: "5px", marginLeft: "0px" }} onClick={() => setExample(idp)}>Platform Teams</button>
+          <button style={{ margin: "5px" }} onClick={() => setExample(feat)}>Produkt Teams</button>
+          <button style={{ margin: "5px" }} onClick={() => setExample(ops)}>Operations Teams</button>
           <button style={{ margin: "5px" }} onClick={() => setExample(dut)}>Digital Udvikling & Teknologi</button>
-          <button style={{ margin: "5px" }} onClick={() => setExample(pub)}>Infrastruktur Platforme</button>
         </div>
 
         <h1 style={{ fontFamily: "Arial, Helvetica", fontSize: "30px", fontWeight: "bold", marginBottom: "0px" }}>Techradar</h1>
@@ -53,7 +54,7 @@ function App() {
               <h3 style={{ fontFamily: "Geneva, Arial, Helvetica, sans-serif", fontSize: "16px" }}>Hvem opdaterer den ?</h3>
 
               <p style={{ fontFamily: "Geneva, Arial, Helvetica, sans-serif", fontSize: "14px" }}>
-                Vores teknologiske radarskærme vedligeholdes af vores <em>Arkitekt Team</em> &mdash; som faciliterer og driver diskussionerne om teknologivalg på tværs af vores produkt teams. Tildelingen af teknologier til ringe er resultatet af forslag til ændringer, der diskuteres og stemmes om. Techradar er åben for bidrag fra alle produkt- og platformteams hos JP/Politikens Hus og afhænger af deres aktive deltagelse for at dele erfaringer, faldgruber og bidrage til gode praksisser for brugen af teknologierne.
+                Vores teknologiske radarskærme vedligeholdes af vores <em>Arkitekt Team</em> &mdash; som faciliterer og driver diskussionerne om teknologivalg på tværs af vores produkt og platform teams. Tildelingen af teknologier til ringe er resultatet af forslag til ændringer, der diskuteres og stemmes om. Techradar er åben for bidrag fra alle produkt- og platformteams hos JP/Politikens Hus og afhænger af deres aktive deltagelse for at dele erfaringer, faldgruber og bidrage til gode praksisser for brugen af teknologierne.
               </p>
             </td></tr>
         </tbody>
