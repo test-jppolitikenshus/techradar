@@ -33,7 +33,7 @@ function App() {
             <td>
               <h3 style={{ fontFamily: "Geneva, Arial, Helvetica, sans-serif", fontSize: "14px", color: "rgb(153, 153, 153)" }}>Hvad er en techradar?</h3>
               <p>
-                En techradar er en oversigt over teknologier, suppleret med en status, kaldet <em>ringtildeling</em>. I dette eksempel anvendes følgende ringe:
+                En techradar er en oversigt over teknologier, suppleret med en status, og fordelt på <em>kategori</em>. I ovenstående anvendes følgende kategorier(ringe):
               </p>
 
               <ul>
