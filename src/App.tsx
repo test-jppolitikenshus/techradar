@@ -31,8 +31,8 @@ function App() {
         <tbody>
           <tr>
             <td>
-              <h3 style={{ fontFamily: "Geneva, Arial, Helvetica, sans-serif", fontSize: "14px", color: "rgb(153, 153, 153)" }}>Hvad er en techradar?</h3>
-              <p>
+              <h3 style={{ fontFamily: "Geneva, Arial, Helvetica, sans-serif", fontSize: "16px" }}>Hvad er en techradar?</h3>
+              <p style={{ fontFamily: "Geneva, Arial, Helvetica, sans-serif", fontSize: "14px" }}>
                 En techradar er en oversigt over teknologier, suppleret med en status, og grupperet i relevante <em>kategorier</em> for hver område. Ovenfor kan der vælges en radar der fokuserer på henholdvsis IDP platform, produktteams eller Operations teknologier. Der anvendes følgende kategorier:
               </p>
 
