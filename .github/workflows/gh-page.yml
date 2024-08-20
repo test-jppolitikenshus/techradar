@@ -41,8 +41,17 @@ jobs:
           node-version: 22
           cache: 'pnpm'
 
-      - name: Generate yaml from csv
+      - name: Generate IDP yaml from csv
         run: node src/generateTechRadar.js idpInput.csv techradarIdp.ts
+
+      - name: Generate FEAT yaml from csv
+        run: node src/generateTechRadar.js featInput.csv techradarFeat.ts
+
+      - name: Generate INF yaml from csv
+        run: node src/generateTechRadar.js infInput.csv techradarInf.ts
+
+      - name: Generate DUT yaml from csv
+        run: node src/generateTechRadar.js dutInput.csv techradarDut.ts
 
       - name: Install dependencies
         run: pnpm run ci
