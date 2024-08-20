@@ -31,3 +31,4 @@ Observability,assess,Grafana,,up,https://github.com/grafana/helm-charts
 Observability,assess,OpenTelemetry,,up,https://github.com/open-telemetry/opentelemetry-helm-charts
 Observability,adopt,Hest,,,https://dygtighest.dk
 Observability,adopt,Hest2,,,https://dygtighest.dk
+Observability,adopt,Hest3,,,https://dygtighest.dk
