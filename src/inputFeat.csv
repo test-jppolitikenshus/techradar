@@ -1,25 +1,27 @@
 sliceName,ringId,name,icon,state,url
-Security,assess,AWS SSM secret manager,,,https://docs.aws.amazon.com/systems-manager/latest/userguide/integration-ps-secretsmanager.html
-Security,assess,github advanced security
-Security,assess,https://www.coana.tech
-Workloads & Scaling,adopt,Containers,\uf4b7,up,https://dygtighest.dk
-Workloads & Scaling,assess,Lambda,\uf0627,,https://aws.amazon.com/lambda/
-Datastores,adopt,RDS Postgres,\ue76e,up,https://aws.amazon.com/rds/postgresql/
-GitOps,assess,Github Enterprise Cloud,\uea84,up,https://docs.github.com/en/enterprise-cloud@latest
-GitOps,assess,Github Actions,,up,https://docs.github.com/en/actions
-GitOps,assess,ArgoCD,,up,https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd 
-GitOps,assess,Ubuntu,\ue73a,,https://ubuntu.com/aws
-GitOps,assess,Terraform,\uf1062,up,https://opentofu.org
-GitOps,trial,Crossplane,,up,https://docs.crossplane.io/latest/software/install/
-Observability,assess,Grafana,,up,https://github.com/grafana/helm-charts 
-Observability,assess,Datadog,,up,https://github.com/grafana/helm-charts 
-Observability,assess,OpenTelemetry,,up,https://github.com/open-telemetry/opentelemetry-helm-charts
-Selvbetjening,adopt,gitops
-Selvbetjening,assess,GitOps,,,https://akkireddy.medium.com/rethinking-gitops-moving-beyond-branch-based-deployment-4605f078ef0e
-Selvbetjening,assess,Backstage,,up,https://github.com/backstage/charts
-SQS
-AWS incident manager
-backup vault
-kubernetes
-k6s test
 
+Datastores,adopt,PostgreSQL,\ue76e,,https://aws.amazon.com/rds/postgresql/
+Datastores,adopt,AWS S3,\ue76e,,https://aws.amazon.com/rds/postgresql/
+
+Infrastructure,assess,AWS secret manager,,,https://docs.aws.amazon.com/systems-manager/latest/userguide/integration-ps-secretsmanager.html
+Infrastructure,adopt,Containers,\uf4b7,,https://dygtighest.dk
+Infrastructure,assess,Lambda,\uf0627,new,https://aws.amazon.com/lambda/
+Infrastructure,assess,k6s,new,
+Infrastructure,assess,AWS kubernetes,,
+Infrastructure,assess,AWS SQS,,
+Infrastructure,assess,AWS SNS,,
+Infrastructure,assess,AWS ECR,,
+Infrastructure,assess,GitOps,,,https://akkireddy.medium.com/rethinking-gitops-moving-beyond-branch-based-deployment-4605f078ef0e
+Infrastructure,assess,Github Enterprise Cloud,\uea84,up,https://docs.github.com/en/enterprise-cloud@latest
+Infrastructure,assess,Github Actions,,up,https://docs.github.com/en/actions
+Infrastructure,assess,Ubuntu,\ue73a,,https://ubuntu.com/aws
+Infrastructure,assess,Terraform,\uf1062,up,https://opentofu.org
+
+Observability,assess,OpenTelemetry,,,https://github.com/open-telemetry/opentelemetry-helm-charts
+Observability,assess,Grafana,,,https://github.com/grafana/helm-charts 
+Observability,assess,Datadog,,,https://datadog.com
+
+Languages,asses,Python,\uf40d,,https://python.org
+Languages,assess,Go,\uf7b5,,https://golang.org
+Languages,assess,Typescript,\ufbe4,,https://www.typescriptlang.org
+Languages,assess,Javascript,\ufbe4,,https://developer.mozilla.org/en-US/docs/Web/JavaScript

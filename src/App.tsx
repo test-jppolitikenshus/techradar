@@ -14,10 +14,10 @@ function App() {
         <i className="fa-brands fa-facebook"></i>
         <div style={{ paddingBottom: "10px" }}>
           <h2 style={{ fontFamily: "Arial, Helvetica", fontSize: "20px", fontWeight: "bold", marginBottom: "0px" }}>Vælg en radar:</h2>
-          <button style={{ margin: "5px", marginLeft: "0px" }} onClick={() => setExample(idp)}>Platform Teams</button>
+          <button style={{ margin: "5px", marginLeft: "0px" }} onClick={() => setExample(idp)}>IDP</button>
           <button style={{ margin: "5px" }} onClick={() => setExample(feat)}>Produkt Teams</button>
-          <button style={{ margin: "5px" }} onClick={() => setExample(ops)}>Operations Teams</button>
-          <button style={{ margin: "5px" }} onClick={() => setExample(dut)}>Digital Udvikling & Teknologi</button>
+          <button style={{ margin: "5px" }} onClick={() => setExample(ops)}>Operations</button>
+          <button style={{ margin: "5px" }} onClick={() => setExample(dut)}>Samlet DUT radar</button>
         </div>
 
         <h1 style={{ fontFamily: "Arial, Helvetica", fontSize: "30px", fontWeight: "bold", marginBottom: "0px" }}>Techradar</h1>
@@ -34,7 +34,7 @@ function App() {
             <td>
               <h3 style={{ fontFamily: "Geneva, Arial, Helvetica, sans-serif", fontSize: "16px" }}>Hvad er en techradar?</h3>
               <p style={{ fontFamily: "Geneva, Arial, Helvetica, sans-serif", fontSize: "14px" }}>
-                En techradar er en oversigt over teknologier, suppleret med en status, og grupperet i relevante <em>ring-kategorier</em> for hvert område. Ovenfor kan der vælges en radar der forholder sig henholdvsis til Platform Teams, Produkt Teams eller Operations Teams teknologier. Der anvendes følgende områder:
+                En techradar er en oversigt over teknologier, suppleret med en status, og grupperet i relevante <em>kategorier</em> for hvert område. Ovenfor kan der vælges en radar der forholder sig til henholdvsis Platform Teams, Produkt Teams eller Operations Teams teknologier. Der anvendes følgende områder:
               </p>
 
               <ul style={{ fontFamily: "Geneva, Arial, Helvetica, sans-serif", fontSize: "14px" }} >

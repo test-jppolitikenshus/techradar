@@ -1,43 +1,49 @@
 sliceName,ringId,name,icon,state,url
-Networking & Security,assess,AWS SSM,,up,https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html
-Networking & Security,assess,Istio,,up,https://istio.io/latest/docs/setup/install/helm/
-Networking & Security,assess,Cilium,,up,https://docs.cilium.io/en/stable/installation/k8s-install-helm/
-Networking & Security,assess,Falco,,up,https://github.com/falcosecurity/charts
-Networking & Security,assess,Trivy,,up,https://aquasecurity.github.io/trivy/v0.28.1/docs/kubernetes/cli/scanning/
-Networking & Security,assess,SPIRE / SPIFFE,,up,https://spiffe.io/docs/latest/spire-helm-charts-hardened-about/installation/
-Networking & Security,assess,Kyverno,,up,https://kyverno.github.io/kyverno/
-Workloads & Scaling,adopt,Containers,\uf4b7,up,https://dygtighest.dk
-Workloads & Scaling,assess,Lambda,\uf0627,,https://aws.amazon.com/lambda/
-Workloads & Scaling,assess,Karpenter,,,https://karpenter.sh/v0.37/getting-started/getting-started-with-karpenter/
-Datastores,adopt,RDS Postgres,\ue76e,up,https://aws.amazon.com/rds/postgresql/
-Datastores,adopt,EBS,,up,https://aws.amazon.com/ebs/
-Datastores,adopt,EFS,,up,https://aws.amazon.com/efs/
-Infrastucture,assess,Github Enterprise Cloud,\uea84,up,https://docs.github.com/en/enterprise-cloud@latest
-Infrastucture,assess,ArgoCD,,up,https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd 
-Infrastucture,assess,Backstage,,up,https://github.com/backstage/charts
-Infrastucture,hold,TeamCity,,down,https://www.jetbrains.com/teamcity/
-Infrastucture,adopt,Microsoft Entra,\uf0805,,https://www.microsoft.com/en-us/security/business/microsoft-entra
-Infrastucture,assess,Ubuntu,\ue73a,,https://ubuntu.com/aws
-Cloud Providers,adopt,AWS,\uf0ef,,https://jppol-sso.awsapps.com/start#/
-Cloud Providers,assess,EKS-anywhere,,,https://aws.amazon.com/eks/eks-anywhere/
-Cloud Providers,assess,Azure,\uebd8,,https://portal.azure.com/#home
-Cloud Providers,assess,Google Cloud Platform,\uf11f6,down,https://cloud.google.com/
-Infrastructure as code,assess,Terraform,\uf1062,up,https://opentofu.org
-Infrastructure as code,trial,Crossplane,,up,https://docs.crossplane.io/latest/software/install/
+Networking & Security,assess,AWS SSM,,,https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html
+Networking & Security,assess,Istio,,,https://istio.io/latest/docs/setup/install/helm/
+Networking & Security,assess,Cilium,,,https://docs.cilium.io/en/stable/installation/k8s-install-helm/
+Networking & Security,assess,Falco,,,https://github.com/falcosecurity/charts
+Networking & Security,assess,Trivy,,,https://aquasecurity.github.io/trivy/v0.28.1/docs/kubernetes/cli/scanning/
+Networking & Security,assess,SPIRE / SPIFFE,,,https://spiffe.io/docs/latest/spire-helm-charts-hardened-about/installation/
+Networking & Security,assess,Kyverno,,,https://kyverno.github.io/kyverno/
+Networking & Security,assess,,,github advanced security
+Networking & Security,assess,,,https://www.coana.tech,
+
+Datastores,adopt,RDS Postgres,\ue76e,,https://aws.amazon.com/rds/postgresql/
+Datastores,adopt,AWS EBS,,,https://aws.amazon.com/ebs/
+Datastores,adopt,AWS EFS,,,https://aws.amazon.com/efs/
+Datastores,adopt,AWS S3,,,
+
+Infrastructure,assess,Github Enterprise Cloud,\uea84,,https://docs.github.com/en/enterprise-cloud@latest
+Infrastructure,assess,Github Actions,,,https://docs.github.com/en/actions
+Infrastructure,assess,ArgoCD,,,https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd 
+Infrastructure,assess,Backstage,,,https://github.com/backstage/charts
+Infrastructure,hold,TeamCity,,down,https://www.jetbrains.com/teamcity/
+Infrastructure,adopt,Microsoft Entra,\uf0805,,https://www.microsoft.com/en-us/security/business/microsoft-entra
+Infrastructure,adopt,Containers,\uf4b7,,https://dygtighest.dk
+Infrastructure,assess,Lambda,\uf0627,,https://aws.amazon.com/lambda/
+Infrastructure,assess,Karpenter,,,https://karpenter.sh/v0.37/getting-started/getting-started-with-karpenter/
+Infrastructure,assess,Kubernetes,\uf10fe,,https://github.com/test-jppolitikenshus/internal-developer-platform/blob/main/architecture-decision-records/006-container-orkestrering.md
+Infrastructure,assess,AWS SQS,,
+Infrastructure,assess,AWS SNS,,
+Infrastructure,assess,AWS ECR,,
+Infrastructure,assess,DockerHub,,
+Infrastructure,assess,AWS Route53,,,
+Infrastructure,assess,AWS incident manager,,,
+Infrastructure,assess,AWS Backup Vault,,,
+Infrastructure,assess,Veeam,,,
+
+Infrastructure as code,assess,Terraform,\uf1062,,https://opentofu.org
+Infrastructure as code,trial,Crossplane,,,https://docs.crossplane.io/latest/software/install/
 Infrastructure as code,assess,CDK,,,https://aws.amazon.com/cdk/
-Infrastructure as code,assess,ACK,,,https://aws.amazon.com/blogs/containers/aws-controllers-for-kubernetes-ack/
-Infrastructure as code,assess,GitOps,,,https://akkireddy.medium.com/rethinking-gitops-moving-beyond-branch-based-deployment-4605f078ef0e
+Infrastructure as code,adopt,GitOps,,,https://akkireddy.medium.com/rethinking-gitops-moving-beyond-branch-based-deployment-4605f078ef0e
+
 Observability,assess,Grafana,,up,https://github.com/grafana/helm-charts 
 Observability,assess,OpenTelemetry,,up,https://github.com/open-telemetry/opentelemetry-helm-charts
-Observability,adopt,Hest,,,https://dygtighest.dk
-ECR, dockerhub
-SQS
-SNS
-Route53
-ACM
-S3
-aws backup vault
-slack
-github wiki
-github issues
+Observability,assess,Datadog,,,https://datadog.com
+
+
+
+
+
 
