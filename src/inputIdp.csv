@@ -6,8 +6,8 @@ Networking & Security,assess,Falco,,,https://github.com/falcosecurity/charts
 Networking & Security,assess,Trivy,,,https://aquasecurity.github.io/trivy/v0.28.1/docs/kubernetes/cli/scanning/
 Networking & Security,assess,SPIRE / SPIFFE,,,https://spiffe.io/docs/latest/spire-helm-charts-hardened-about/installation/
 Networking & Security,assess,Kyverno,,,https://kyverno.github.io/kyverno/
-Networking & Security,assess,,,github advanced security
-Networking & Security,assess,,,https://www.coana.tech,
+Networking & Security,assess,Github Advanced Security,,,
+Networking & Security,assess,Coana,,,https://www.coana.tech
 
 Datastores,adopt,RDS Postgres,\ue76e,,https://aws.amazon.com/rds/postgresql/
 Datastores,adopt,AWS EBS,,,https://aws.amazon.com/ebs/
@@ -19,7 +19,7 @@ Infrastructure,assess,Github Actions,,,https://docs.github.com/en/actions
 Infrastructure,assess,ArgoCD,,,https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd 
 Infrastructure,assess,Backstage,,,https://github.com/backstage/charts
 Infrastructure,hold,TeamCity,,down,https://www.jetbrains.com/teamcity/
-Infrastructure,adopt,Microsoft Entra,\uf0805,,https://www.microsoft.com/en-us/security/business/microsoft-entra
+Infrastructure,adopt,Microsoft Entra IdP,\uf0805,,https://www.microsoft.com/en-us/security/business/microsoft-entra
 Infrastructure,adopt,Containers,\uf4b7,,https://dygtighest.dk
 Infrastructure,assess,Lambda,\uf0627,,https://aws.amazon.com/lambda/
 Infrastructure,assess,Karpenter,,,https://karpenter.sh/v0.37/getting-started/getting-started-with-karpenter/
@@ -32,11 +32,10 @@ Infrastructure,assess,AWS Route53,,,
 Infrastructure,assess,AWS incident manager,,,
 Infrastructure,assess,AWS Backup Vault,,,
 Infrastructure,assess,Veeam,,,
-
-Infrastructure as code,assess,Terraform,\uf1062,,https://opentofu.org
-Infrastructure as code,trial,Crossplane,,,https://docs.crossplane.io/latest/software/install/
-Infrastructure as code,assess,CDK,,,https://aws.amazon.com/cdk/
-Infrastructure as code,adopt,GitOps,,,https://akkireddy.medium.com/rethinking-gitops-moving-beyond-branch-based-deployment-4605f078ef0e
+Infrastructure,assess,Terraform,\uf1062,,https://opentofu.org
+Infrastructure,trial,Crossplane,,,https://docs.crossplane.io/latest/software/install/
+Infrastructure,assess,CDK,,,https://aws.amazon.com/cdk/
+Infrastructure,adopt,GitOps,,,https://akkireddy.medium.com/rethinking-gitops-moving-beyond-branch-based-deployment-4605f078ef0e
 
 Observability,assess,Grafana,,up,https://github.com/grafana/helm-charts 
 Observability,assess,OpenTelemetry,,up,https://github.com/open-telemetry/opentelemetry-helm-charts

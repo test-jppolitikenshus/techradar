@@ -21,7 +21,7 @@ Observability,assess,OpenTelemetry,,,https://github.com/open-telemetry/opentelem
 Observability,assess,Grafana,,,https://github.com/grafana/helm-charts 
 Observability,assess,Datadog,,,https://datadog.com
 
-Languages,asses,Python,\uf40d,,https://python.org
+Languages,assess,Python,\uf40d,,https://python.org
 Languages,assess,Go,\uf7b5,,https://golang.org
 Languages,assess,Typescript,\ufbe4,,https://www.typescriptlang.org
 Languages,assess,Javascript,\ufbe4,,https://developer.mozilla.org/en-US/docs/Web/JavaScript

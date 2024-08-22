@@ -14,10 +14,10 @@ function App() {
         <i className="fa-brands fa-facebook"></i>
         <div style={{ paddingBottom: "10px" }}>
           <h2 style={{ fontFamily: "Arial, Helvetica", fontSize: "20px", fontWeight: "bold", marginBottom: "0px" }}>Vælg en radar:</h2>
-          <button style={{ margin: "5px", marginLeft: "0px" }} onClick={() => setExample(idp)}>IDP</button>
+          <button style={{ margin: "5px", marginLeft: "0px" }} onClick={() => setExample(idp)}>Internal Developer Platform</button>
           <button style={{ margin: "5px" }} onClick={() => setExample(feat)}>Produkt Teams</button>
           <button style={{ margin: "5px" }} onClick={() => setExample(ops)}>Operations</button>
-          <button style={{ margin: "5px" }} onClick={() => setExample(dut)}>Samlet DUT radar</button>
+          <button style={{ margin: "5px" }} onClick={() => setExample(dut)}>Den store DUT radar</button>
         </div>
 
         <h1 style={{ fontFamily: "Arial, Helvetica", fontSize: "30px", fontWeight: "bold", marginBottom: "0px" }}>Techradar</h1>
