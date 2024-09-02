@@ -74,8 +74,8 @@ devDependencies:
     specifier: ^15.6.0
     version: 15.6.0
   happy-dom:
-    specifier: ^14.11.0
-    version: 14.11.0
+    specifier: ^15.7.3
+    version: 15.7.3
   jest-environment-jsdom:
     specifier: 29.7.0
     version: 29.7.0
@@ -96,7 +96,7 @@ devDependencies:
     version: 3.7.3(@types/node@20.11.24)(typescript@5.4.2)(vite@5.2.11)
   vitest:
     specifier: ^1.3.1
-    version: 1.3.1(@types/node@20.11.24)(happy-dom@14.11.0)
+    version: 1.3.1(@types/node@20.11.24)(happy-dom@15.7.3)
 
 packages:
 
@@ -3233,9 +3233,9 @@ packages:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
     dev: true
 
-  /happy-dom@14.11.0:
-    resolution: {integrity: sha512-vu25dY7YJqLuTG/3ADC0FZRRF0yNBp3q2K0YTN08opXdZi8V/YzIJDNJWFiCnDIuyc+RrCIE093+H5fa9Trlxg==}
-    engines: {node: '>=16.0.0'}
+  /happy-dom@15.7.3:
+    resolution: {integrity: sha512-w3RUaYNXFJX5LiNVhOJLK4GqCB1bFj1FvELtpon3HrN8gUpS09V0Vvm4/BBRRj7mLUE1+ch8PKv1JxEp/0IHjA==}
+    engines: {node: '>=18.0.0'}
     dependencies:
       entities: 4.5.0
       webidl-conversions: 7.0.0
@@ -5010,7 +5010,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@1.3.1(@types/node@20.11.24)(happy-dom@14.11.0):
+  /vitest@1.3.1(@types/node@20.11.24)(happy-dom@15.7.3):
     resolution: {integrity: sha512-/1QJqXs8YbCrfv/GPQ05wAZf2eakUPLPa18vkJAKE7RXOKfVHqMZZ1WlTjiwl6Gcn65M5vpNUB6EFLnEdRdEXQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -5045,7 +5045,7 @@ packages:
       chai: 4.4.1
       debug: 4.3.4
       execa: 8.0.1
-      happy-dom: 14.11.0
+      happy-dom: 15.7.3
       local-pkg: 0.5.0
       magic-string: 0.30.8
       pathe: 1.1.2
