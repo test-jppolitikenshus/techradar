@@ -16,7 +16,7 @@ function App() {
           <h2 style={{ fontFamily: "Arial, Helvetica", fontSize: "20px", fontWeight: "bold", marginBottom: "0px" }}>Vælg en radar:</h2>
           <button style={{ margin: "5px", marginLeft: "0px" }} onClick={() => setExample(idp)}>Internal Developer Platform</button>
           <button style={{ margin: "5px" }} onClick={() => setExample(feat)}>Produkt Teams</button>
-          <button style={{ margin: "5px" }} onClick={() => setExample(ops)}>Operations</button>
+          <button style={{ margin: "5px" }} onClick={() => setExample(ops)}>IT Operations</button>
           <button style={{ margin: "5px" }} onClick={() => setExample(dut)}>Den store DUT radar</button>
         </div>
 
